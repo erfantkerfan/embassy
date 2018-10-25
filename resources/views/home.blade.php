@@ -5,21 +5,21 @@
 
         <div class="col-10 offset-1">
             <div class="card">
-                <img class="card-img-top" src="/img/2.jpg">
+                <img class="card-img-top" src="/img/france.jpg">
                 <div class="card-body">
                     {{--<h3 class="card-title text-center"></h3>--}}
-                    <h4 class="card-text text-center" dir="rtl">
+                    <h4 class="card-text text-center" dir="rtl" style="line-height: 1.6;">
                         قدم نخست  برای گرفتن ویزا فرانسه یا شینگن جهت سفر های تفریحی، کاری یا تحصیلی ، گرفتن وقت مصاحبه حضوری در سفارت فرانسه است.
                         جهت تعیین وقت مصاحبه خود با ما تماس بگیرید.
                         <br>
-                        <i class="fas fa-address-card"></i>
+                        <i class="fas fa-address-card" style="color: brown"></i>
                         09036515059
-                        <i class="fas fa-address-card"></i>
+                        <i class="fas fa-address-card" style="color: brown"></i>
                         09123865710
-                        <i class="fas fa-address-card"></i>
+                        <i class="fas fa-address-card" style="color: brown"></i>
                         02144468302
                     </h4>
-                    {{--<a href="#" class="btn btn-primary">لینک</a>--}}
+                    <a href="{{ route('france') }}" class="btn btn-primary"><span class="flag-icon flag-icon-fr"></span>سفارت فرانسه</a>
                 </div>
             </div>
         </div>
@@ -28,11 +28,11 @@
 
         <div class="col-10 offset-1">
             <div class="card">
-                <img class="card-img-top" src="/img/2.jpg">
+                <img class="card-img-top" src="/img/home.jpg">
                 <div class="card-body">
-                    <h3 class="card-title text-center" style="color:#9561e2">مراحل اخذ ویزا</h3>
+                    <h3 class="card-title text-center" style="color:steelblue">مراحل اخذ ویزا</h3>
                     <h4 class="card-text text-right" dir="rtl">
-                        <p>
+                        <p class=" text-center">
                             <a class="btn btn-primary" data-toggle="collapse" href="#collapse1" role="button" aria-expanded="false" aria-controls="collapse1">
                                 1-	تعیین وقت مصاحبه سفارت
                             </a>
@@ -40,12 +40,11 @@
                                 2-	حضور در محل مصاحبه و ارائه مدارک
                             </a>
                             <a class="btn btn-primary" data-toggle="collapse" href="#collapse3" role="button" aria-expanded="false" aria-controls="collapse1">
-                                مدارکی که در روز مصاحبه باید به همراه داشته باشید:
+                                مدارک روز مصاحبه:
                             </a>
                             <a class="btn btn-primary" data-toggle="collapse" href="#collapse4" role="button" aria-expanded="false" aria-controls="collapse3">
                                 3-	دریافت ویزا
                             </a>
-
                         </p>
                         <div class="collapse" id="collapse1">
                             <div class="card card-body" style="line-height: 1.6;">
@@ -54,7 +53,7 @@
                         </div>
                         <div class="collapse" id="collapse2">
                             <div class="card card-body" style="line-height: 1.6;">
-                                مدارک مورد نیاز برای همه کشور های عضو شینگن شبیه به هم است فقط در جزئیات کمی متفاوت است
+                                مدارک مورد نیاز برای همه کشور های عضو شینگن شبیه به هم است فقط در جزئیات کمی متفاوت است.
                             </div>
                         </div>
                         <div class="collapse" id="collapse3">
@@ -85,7 +84,7 @@
                                 <br>
                                 •	پرسش نامه در مورد وضعیت خانوادگی که باید تکمیل شود.
                                 <br>
-                                توجه:بهتر است مدارک به ترتیب بالا در پرونده قرار بگیرند.
+                                توجه: بهتر است مدارک به ترتیب بالا در پرونده قرار بگیرند.
 
                             </div>
                         </div>
@@ -102,17 +101,6 @@
         </div>
 
     </div>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
     <br>
     <br>
     <br>

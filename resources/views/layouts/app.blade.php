@@ -6,21 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ config('app.name') }}</title>
     <meta name="csrf-token" content="{{ csrf_token() }}">
-
-    <!-- Fonts -->
-    <link rel="icon" href="/img/icon.gif" type="image/gif">
-    <link href="/css/googleapis.css" rel="stylesheet" type="text/css">
-
-    <!-- Styles -->
     {{--TODO:website icon--}}
+    <link rel="icon" href="/img/icon.gif" type="image/gif">
+    <!-- Styles -->
     <link href="/css/app.css" rel="stylesheet">
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link href="/css/flag-icon.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Scrips -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <style type="text/css">
-
         @font-face {
             font-family:'Font';
             src: url('/fonts/BTITRBOLD.ttf');
@@ -35,34 +34,12 @@
             font-family:IranNastaliq,'IranNastaliq',tahoma;
             font-size:12px;
         }
-        body, html {
-            height: 100%;
-            margin: 0;
-        }
-        .footer {
-            position: fixed;
-            left: 0;
-            bottom: 0;
-            width: 100%;
-            background: dimgrey;
-            color: white;
-            text-align: center;
-        }
-        .flex-center {
-            align-items: center;
-            display: flex;
-            justify-content: center;
-        }
         .bg {
             background-image: url("/img/bg.png");
             height: 100%;
             background-position: center;
             background-repeat: repeat-y;
             background-size: cover;
-        }
-        .carousel {
-            border-radius: 20px 20px 20px 20px;
-            overflow: hidden;
         }
         li.different{
             border:none;
@@ -89,15 +66,6 @@
             left: 0;
         }
     </style>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
-    {{--for-bootstrap-new-badge--}}
-    <style>
-        .badge{display:inline-block;padding:.25em .4em;font-size:75%;font-weight:700;line-height:1;color:#fff;text-align:center;white-space:nowrap;vertical-align:baseline;border-radius:.25rem}.badge:empty{display:none}.btn .badge{position:relative;top:-1px}a.badge:focus,a.badge:hover{color:#fff;text-decoration:none;cursor:pointer}.badge-pill{padding-right:.6em;padding-left:.6em;border-radius:10rem}.badge-default{background-color:#636c72}.badge-default[href]:focus,.badge-default[href]:hover{background-color:#4b5257}.badge-primary{background-color:#0275d8}.badge-primary[href]:focus,.badge-primary[href]:hover{background-color:#025aa5}.badge-success{background-color:#5cb85c}.badge-success[href]:focus,.badge-success[href]:hover{background-color:#449d44}.badge-info{background-color:#5bc0de}.badge-info[href]:focus,.badge-info[href]:hover{background-color:#31b0d5}.badge-warning{background-color:#f0ad4e}.badge-warning[href]:focus,.badge-warning[href]:hover{background-color:#ec971f}.badge-danger{background-color:#d9534f}.badge-danger[href]:focus,.badge-danger[href]:hover{background-color:#c9302c}
-    </style>
 </head>
 <body class="bg" style="font-family:'Font'">
 
@@ -105,7 +73,7 @@
         <div class="container">
             <!-- Right Side Of Navbar -->
             <ul class="nav navbar-nav navbar-right">
-                <li class="different"><a href="{{ route('home') }}">
+                <li class="different"><a href="{{ route('contactus') }}">
                         <i class="fas fa-phone" style="color:red"></i>
                         تماس با ما
                     </a>
@@ -113,14 +81,15 @@
 
                 <li class="dropdown different">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" aria-haspopup="true">
-                        <i class="fas fa-landmark" style="color:rebeccapurple"></i>
+                        <i class="fas fa-landmark" style="color:#4e87c4"></i>
                         سفارت ها
                     </a>
                     <ul class="dropdown-menu">
 
                         <li class="text-center">
 
-                            <a href="{{ route('home') }}">
+                            <a href="{{ route('france') }}">
+                                <span class="flag-icon flag-icon-fr"></span>
                                 سفارت فرانسه
                             </a>
 
@@ -135,6 +104,24 @@
             </ul>
         </div>
     </nav>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+            </div>
+        </div>
+    </div>
+
 @yield('content')
 </body>
 </html>
