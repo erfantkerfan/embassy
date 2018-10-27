@@ -7,7 +7,7 @@
     <title>{{ config('app.name') }}</title>
     <meta name="csrf-token" content="{{ csrf_token() }}">
     {{--TODO:website icon--}}
-    <link rel="icon" href="/img/icon.gif" type="image/gif">
+    <link rel="icon" href="/img/icon.jpg" type="image/gif">
     <!-- Styles -->
     <link href="/css/app.css" rel="stylesheet">
     <link href="/css/flag-icon.css" rel="stylesheet">
