@@ -52,9 +52,11 @@
                         <div class="collapse" id="collapse2">
                             <div class="card card-body" style="line-height: 1.6;">
                                 مدارک مورد نیاز برای همه کشور های عضو شینگن شبیه به هم است فقط در جزئیات کمی متفاوت است.
-                                <a class="btn btn-primary col-2" data-toggle="collapse" href="#collapse3" role="button" aria-expanded="false" aria-controls="collapse1">
-                                    مدارک روز مصاحبه:
-                                </a>
+                                <div class="col-auto">
+                                    <a class="btn btn-primary" data-toggle="collapse" href="#collapse3" role="button" aria-expanded="false" aria-controls="collapse1">
+                                        مدارک روز مصاحبه:
+                                    </a>
+                                </div>
                                 <div class="collapse" id="collapse3">
                                     <div class="card card-body" style="line-height: 1.6;">
                                         •	فرم دریافت ویزا کوتاه مدت که به زبان فرانسوی یا انگلیسی تکمیل، امضا و تاریخ خورده باشد.
