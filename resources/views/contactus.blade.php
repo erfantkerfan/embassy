@@ -36,7 +36,7 @@
                 <div class="card-footer text-muted" dir="auto">
                     <div>
                         طراح:
-                        <a href="https://t.me/er_gholizade" style="color: inherit">
+                        <a href="https://t.me/erfantkerfan" style="color: inherit">
                             عرفان قلی زاده
                         </a>
                     </div>
