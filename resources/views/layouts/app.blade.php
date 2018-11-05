@@ -35,7 +35,7 @@
             font-size:12px;
         }
         .bg {
-            background-image: url("/img/bg.png");
+            background-image: url("/img/bg.jpg");
             height: 100%;
             background-position: center;
             background-repeat: repeat-y;

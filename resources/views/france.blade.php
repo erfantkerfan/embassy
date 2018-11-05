@@ -14,9 +14,12 @@
                         </span>
                         به ما تماس بگیرند.
                         <br>
-                        09036515059
                         <i class="fas fa-address-card" style="color: brown"></i>
-                        02144468302
+                        021-44468302
+                        <br>
+                        <i class="fas fa-address-card" style="color: brown"></i>
+                        09036515059
+                        <br>
                         <i class="fas fa-address-card" style="color: brown"></i>
                         09123865710
                         <br>
@@ -28,7 +31,7 @@
                         <br>
                         •	شماره تلفن شخص درخواست کننده
                         <br>
-                        حهت اخذ وقت سفارت فرانسه مدارک فوق را به شماره 09036515059 یا
+                        جهت اخذ وقت سفارت فرانسه مدارک فوق را به شماره 09036515059 یا
                         آیدی تلگرام
                         <a href="https://t.me/Timeofembassy" style="color: inherit">
                             Timeofembassy@

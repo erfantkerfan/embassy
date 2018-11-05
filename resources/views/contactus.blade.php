@@ -7,21 +7,31 @@
                 <div class="card-header">
                     <h3>
                         <i class="fas fa-info-circle"></i>
-                        درباره ما
+                        تماس با ما
                     </h3>
                 </div>
                 <div class="card-body">
                     <h4 class="card-text" dir="rtl">
-                        آدرس:
+                        <b>
+                            آدرس:
+                        </b>
+                        <br>
+                        <br>
                         <i class="fas fa-map-marked-alt" style="color: red"></i>
                         تهران ، میدان عدل ، خیابان عدل جنوبی ، پلاک5 ، واحد 5
                         <br>
                         <br>
                         تلفن تماس:
+                        <br>
+                        <br>
                         <i class="fas fa-address-card" style="color: brown"></i>
                         02144468302
+                        <br>
+                        <br>
                         <i class="fas fa-address-card" style="color: brown"></i>
                         09123865710
+                        <br>
+                        <br>
                         <i class="fas fa-address-card" style="color: brown"></i>
                         09036515059
                         <br>
