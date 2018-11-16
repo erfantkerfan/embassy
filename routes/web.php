@@ -11,7 +11,6 @@
 |
 */
 
-// TODO: add offline delivery system
 Route::get('/','Controller@home')->name('home');
 Route::get('/contactus','Controller@contactus')->name('contactus');
 Route::get('/france','Controller@france')->name('france');

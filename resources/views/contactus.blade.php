@@ -38,15 +38,15 @@
                         <br>
                         آیدی تلگرام:
                         <img class="col-1" src="/img/telegram.svg">
-                        <a href="https://t.me/Timeofembassy" style="color: inherit">
-                            Timeofembassy@
+                        <a href="tg://resolve?domain=time_embassy" style="color: inherit">
+                            time_embassy@
                         </a>
                     </h4>
                 </div>
                 <div class="card-footer text-muted" dir="auto">
                     <div>
                         طراح:
-                        <a href="https://t.me/erfantkerfan" style="color: inherit">
+                        <a href="tg://resolve?domain=erfantkerfan" style="color: inherit">
                             عرفان قلی زاده
                         </a>
                     </div>

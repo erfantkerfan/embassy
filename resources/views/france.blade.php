@@ -33,8 +33,8 @@
                         <br>
                         جهت اخذ وقت سفارت فرانسه مدارک فوق را به شماره 09036515059 یا
                         آیدی تلگرام
-                        <a href="https://t.me/Timeofembassy" style="color: inherit">
-                            Timeofembassy@
+                        <a href="tg://resolve?domain=time_embassy" style="color: inherit">
+                            time_embassy@
                         </a>
                         ارسال فرمایید.
                         <br>
