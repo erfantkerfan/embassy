@@ -4,6 +4,14 @@
     <div class="container">
 
         <div class="col-10 offset-1">
+            <div class="card text-center">
+                <div class="card-header">
+                    <h3>
+                        وقت سفارت فرانسه
+                    </h3>
+                </div>
+            </div>
+
             <div class="card">
                 {{--<img class="card-img-top" src="/img/france2.jpg">--}}
                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
